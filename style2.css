@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #FFFEC4;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    background-image: url('Pink Aesthetic Watercolor Phone Wallpaper.png'); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; 
+}
+.container {
+    width: 50%;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 5px 10px 50px #f11aee;
+    padding: 20px;
+    text-align: center;
+}
+button, label{
+    padding: 5px, 10px;
+    background: #88c6ea;
+    border-radius: 5px;
+    color: #191a19;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s linear;
+    border: 4px solid #f9d0d2;
+    box-shadow: 5px 10px 50px #f11aee;
+    margin: 10px;
+}
+#user-image{
+    display: none;
+}
+.preview, .result{
+    display: none;
+}
+.active {
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #ed2d53;
+}
+.show{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.result-color {
+    display: inline-block;
+}
